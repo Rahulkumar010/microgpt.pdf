@@ -1,0 +1,3223 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<</AcroForm
+  <</Fields
+  [<</AP <</N 2 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [30 700 120 720] /Subtype /Widget /T
+  (lbl_n_embd) /Type /Annot /V (n_embd)>>
+  <</AP <</N 3 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 700 230 720] /Subtype /Widget /T
+  (n_embd) /Type /Annot /V (16)>>
+  <</AP <</N 4 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [280 700 370 720] /Subtype /Widget /T
+  (lbl_n_head) /Type /Annot /V (n_head)>>
+  <</AP <</N 5 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [380 700 480 720] /Subtype /Widget /T
+  (n_head) /Type /Annot /V (4)>>
+  <</AP <</N 6 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [30 660 120 680] /Subtype /Widget /T
+  (lbl_n_layer) /Type /Annot /V (n_layer)>>
+  <</AP <</N 7 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 660 230 680] /Subtype /Widget /T
+  (n_layer) /Type /Annot /V (1)>>
+  <</AP <</N 8 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [280 660 370 680] /Subtype /Widget /T
+  (lbl_block_size) /Type /Annot /V (block_size)>>
+  <</AP <</N 9 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [380 660 480 680] /Subtype /Widget /T
+  (block_size) /Type /Annot /V (16)>>
+  <</AP <</N 10 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1
+  /MK <</BG [1 1 1]>> /Rect [30 620 120 640] /Subtype /Widget /T
+  (lbl_learning_rate) /Type /Annot /V (learning_rate)>>
+  <</AP <</N 11 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 620 230 640] /Subtype /Widget /T
+  (learning_rate) /Type /Annot /V (0.01)>>
+  <</AP <</N 12 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1
+  /MK <</BG [1 1 1]>> /Rect [280 620 370 640] /Subtype /Widget /T
+  (lbl_num_steps) /Type /Annot /V (num_steps)>>
+  <</AP <</N 13 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [380 620 480 640] /Subtype /Widget /T
+  (num_steps) /Type /Annot /V (100)>>
+  <</AP <</N 14 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1
+  /MK <</BG [1 1 1]>> /Rect [30 580 120 600] /Subtype /Widget /T
+  (lbl_temperature) /Type /Annot /V (temperature)>>
+  <</AP <</N 15 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 580 230 600] /Subtype /Widget /T
+  (temperature) /Type /Annot /V (0.5)>>
+  <</A
+  <</JS
+  (if \(typeof startTrain !== 'undefined'\) startTrain\(\); else if \(this.startTrain\) this.startTrain\(\); else app.alert\('startTrain not found'\);)
+  /S /JavaScript>>
+  /AP <</N 16 0 R>> /F 4 /FT /Btn /Ff 65536 /MK
+  <</BG [0.1 0.45 0.85] /CA (Train Model)>> /Rect [30 530 150 565]
+  /Subtype /Widget /T (btn_train) /Type /Annot /V (Train Model)>>
+  <</A
+  <</JS
+  (if \(typeof runInference !== 'undefined'\) runInference\(\); else if \(this.runInference\) this.runInference\(\); else app.alert\('runInference not found'\);)
+  /S /JavaScript>>
+  /AP <</N 17 0 R>> /F 6 /FT /Btn /Ff 65536 /MK
+  <</BG [0.2 0.6 0.3] /CA (Inference)>> /Rect [170 530 290 565] /Subtype
+  /Widget /T (btn_infer) /Type /Annot /V (Inference)>>
+  <</AP <</N 18 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 6 /FT /Tx /Ff 4096 /MK
+  <</BG [0.97 0.97 0.97]>> /Rect [30 30 582 500] /Subtype /Widget /T
+  (output) /Type /Annot>>
+  <</AP <</N 19 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 6 /FT /Tx /Ff 4096 /MK
+  <</BG [0.98 0.98 0.98]>> /Rect [30 80 582 700] /Subtype /Widget /T
+  (dataset) /Type /Annot /V
+  (emma
+olivia
+ava
+isabella
+sophia
+charlotte
+mia
+amelia
+harper
+evelyn
+abigail
+emily
+elizabeth
+mila
+ella
+avery
+sofia
+camila
+aria
+scarlett
+victoria
+madison
+luna
+grace
+chloe
+penelope
+layla
+riley
+zoey
+nora
+lily
+eleanor
+hannah
+lillian
+addison
+aubrey
+ellie
+stella
+natalie
+zoe
+leah
+hazel
+violet
+aurora
+savannah
+audrey
+brooklyn
+bella
+claire
+skylar
+lucy
+paisley
+everly
+anna
+caroline
+nova
+genesis
+emilia
+kennedy
+samantha
+maya
+willow
+kinsley
+naomi
+aaliyah
+elena
+sarah
+ariana
+allison
+gabriella
+alice
+madelyn
+cora
+ruby
+eva
+serenity
+autumn
+adeline
+hailey
+gianna
+valentina
+isla
+eliana
+quinn
+nevaeh
+ivy
+sadie
+piper
+lydia
+alexa
+josephine
+emery
+julia
+delilah
+arianna
+vivian
+kaylee
+sophie
+brielle
+madeline
+peyton
+rylee
+clara
+hadley
+melanie
+mackenzie
+reagan
+adalynn
+liliana
+aubree
+jade
+katherine
+isabelle
+natalia
+raelynn
+maria
+athena
+ximena
+arya
+leilani
+taylor
+faith
+rose
+kylie
+alexandra
+mary
+margaret
+lyla
+ashley
+amaya
+eliza
+brianna
+bailey
+andrea
+khloe
+jasmine
+melody
+iris
+isabel
+norah
+annabelle
+valeria
+emerson
+adalyn
+ryleigh
+eden
+emersyn
+anastasia
+kayla
+alyssa
+juliana
+charlie
+esther
+ariel
+cecilia
+valerie
+alina
+molly
+reese
+aliyah
+lilly
+parker
+finley
+morgan
+sydney
+jordyn
+eloise
+trinity
+daisy
+kimberly
+lauren
+genevieve
+sara
+arabella
+harmony
+elise
+remi
+teagan
+alexis
+london
+sloane
+laila
+lucia
+diana
+juliette
+sienna
+elliana
+londyn
+ayla
+callie
+gracie
+josie
+amara
+jocelyn
+daniela
+everleigh
+mya
+rachel
+summer
+alana
+brooke
+alaina
+mckenzie
+catherine
+amy
+presley
+journee
+rosalie
+ember
+brynlee
+rowan
+joanna
+paige
+rebecca
+ana
+sawyer
+mariah
+nicole
+brooklynn
+payton
+marley
+fiona
+georgia
+lila
+harley
+adelyn
+alivia
+noelle
+gemma
+vanessa
+journey
+makayla
+angelina
+adaline
+catalina
+alayna
+julianna
+leila
+lola
+adriana
+june
+juliet
+jayla
+river
+tessa
+lia
+dakota
+delaney
+selena
+blakely
+ada
+camille
+zara
+malia
+hope
+samara
+vera
+mckenna
+briella
+izabella
+hayden
+raegan
+michelle
+angela
+ruth
+freya
+kamila
+vivienne
+aspen
+olive
+kendall
+elaina
+thea
+kali
+destiny
+amiyah
+evangeline
+cali
+blake
+elsie
+juniper
+alexandria
+myla
+ariella
+kate
+mariana
+lilah
+charlee
+daleyza
+nyla
+jane
+maggie
+zuri
+aniyah
+lucille
+leia
+melissa
+adelaide
+amina
+giselle
+lena
+camilla
+miriam
+millie
+brynn
+gabrielle
+sage
+annie
+logan
+lilliana
+haven
+jessica
+kaia
+magnolia
+amira
+adelynn
+makenzie
+stephanie
+nina
+phoebe
+arielle
+evie
+lyric
+alessandra
+gabriela
+paislee
+raelyn
+madilyn
+paris
+makenna
+kinley
+gracelyn
+talia
+maeve
+rylie
+kiara
+evelynn
+brinley
+jacqueline
+laura
+gracelynn
+lexi
+ariah
+fatima
+jennifer
+kehlani
+alani
+ariyah
+luciana
+allie
+heidi
+maci
+phoenix
+felicity
+joy
+kenzie
+veronica
+margot
+addilyn
+lana
+cassidy
+remington
+saylor
+ryan
+keira
+harlow
+miranda
+angel
+amanda
+daniella
+royalty
+gwendolyn
+ophelia
+heaven
+jordan
+madeleine
+esmeralda
+kira
+miracle
+elle
+amari
+danielle
+daphne
+willa
+haley
+gia
+kaitlyn
+oakley
+kailani
+winter
+alicia
+serena
+nadia
+aviana
+demi
+jada
+braelynn
+dylan
+ainsley
+alison
+camryn
+avianna
+bianca
+skyler
+scarlet
+maddison
+nylah
+sarai
+regina
+dahlia
+nayeli
+raven
+helen
+adrianna
+averie
+skye
+kelsey
+tatum
+kensley
+maliyah
+erin
+viviana
+jenna
+anaya
+carolina
+shelby
+sabrina
+mikayla
+annalise
+octavia
+lennon
+blair
+carmen
+yaretzi
+kennedi
+mabel
+zariah
+kyla
+christina
+selah
+celeste
+eve
+mckinley
+milani
+frances
+jimena
+kylee
+leighton
+katie
+aitana
+kayleigh
+sierra
+kathryn
+rosemary
+jolene
+alondra
+elisa
+helena
+charleigh
+hallie
+lainey
+avah
+jazlyn
+kamryn
+mira
+cheyenne
+francesca
+antonella
+wren
+chelsea
+amber
+emory
+lorelei
+nia
+abby
+april
+emelia
+carter
+aylin
+cataleya
+bethany
+marlee
+carly
+kaylani
+emely
+liana
+madelynn
+cadence
+matilda
+sylvia
+myra
+fernanda
+oaklyn
+elianna
+hattie
+dayana
+kendra
+maisie
+malaysia
+kara
+katelyn
+maia
+celine
+cameron
+renata
+jayleen
+charli
+emmalyn
+holly
+azalea
+leona
+alejandra
+bristol
+collins
+imani
+meadow
+alexia
+edith
+kaydence
+leslie
+lilith
+kora
+aisha
+meredith
+danna
+wynter
+emberly
+julieta
+michaela
+alayah
+jemma
+reign
+colette
+kaliyah
+elliott
+johanna
+remy
+sutton
+emmy
+virginia
+briana
+oaklynn
+adelina
+everlee
+megan
+angelica
+justice
+mariam
+khaleesi
+macie
+karsyn
+alanna
+aleah
+mae
+mallory
+esme
+skyla
+madilynn
+charley
+allyson
+hanna
+shiloh
+henley
+macy
+maryam
+ivanna
+ashlynn
+lorelai
+amora
+ashlyn
+sasha
+baylee
+beatrice
+itzel
+priscilla
+marie
+jayda
+liberty
+rory
+alessia
+alaia
+janelle
+kalani
+gloria
+sloan
+dorothy
+greta
+julie
+zahra
+savanna
+annabella
+poppy
+amalia
+zaylee
+cecelia
+coraline
+kimber
+emmie
+anne
+karina
+kassidy
+kynlee
+monroe
+anahi
+jaliyah
+jazmin
+maren
+monica
+siena
+marilyn
+reyna
+kyra
+lilian
+jamie
+melany
+alaya
+ariya
+kelly
+rosie
+adley
+dream
+jaylah
+laurel
+jazmine
+mina
+karla
+bailee
+aubrie
+katalina
+melina
+harlee
+elliot
+hayley
+elaine
+karen
+dallas
+irene
+lylah
+ivory
+chaya
+rosa
+aleena
+braelyn
+nola
+alma
+leyla
+pearl
+addyson
+roselyn
+lacey
+lennox
+reina
+aurelia
+noa
+janiyah
+jessie
+madisyn
+saige
+alia
+tiana
+astrid
+cassandra
+kyleigh
+romina
+stevie
+haylee
+zelda
+lillie
+aileen
+brylee
+eileen
+yara
+ensley
+lauryn
+giuliana
+livia
+anya
+mikaela
+palmer
+lyra
+mara
+marina
+kailey
+liv
+clementine
+kenna
+briar
+emerie
+galilea
+tiffany
+bonnie
+elyse
+cynthia
+frida
+kinslee
+tatiana
+joelle
+armani
+jolie
+nalani
+rayna
+yareli
+meghan
+rebekah
+addilynn
+faye
+zariyah
+lea
+aliza
+julissa
+lilyana
+anika
+kairi
+aniya
+noemi
+a)>>
+  <</A
+  <</JS
+  (if \(typeof goBack !== 'undefined'\) goBack\(\); else if \(this.goBack\) this.goBack\(\);)
+  /S /JavaScript>>
+  /AP <</N 20 0 R>> /F 6 /FT /Btn /Ff 65536 /MK
+  <</BG [0.5 0.5 0.5] /CA (Cancel)>> /Rect [30 30 130 65] /Subtype
+  /Widget /T (btn_back) /Type /Annot /V (Cancel)>>
+  <</A
+  <</JS
+  (if \(typeof submitDataset !== 'undefined'\) submitDataset\(\); else if \(this.submitDataset\) this.submitDataset\(\);)
+  /S /JavaScript>>
+  /AP <</N 21 0 R>> /F 6 /FT /Btn /Ff 65536 /MK
+  <</BG [0.1 0.45 0.85] /CA (Submit Dataset)>> /Rect [462 30 582 65]
+  /Subtype /Widget /T (btn_submit) /Type /Annot /V (Submit Dataset)>>]>>
+  /Names
+  <</JavaScript
+  <</Names
+  [(init_script)
+  <</JS
+  (
+        
+// Mersenne Twister 19937 Ñ matches Python's `random` module exactly \(for reproducibility\)
+const mt = new Uint32Array\(624\); let idx = 625; let _gauss_next = null;
+function seed\(n\) {
+    const u = \(a, b\) => Math.imul\(a, b\) >>> 0, key = [];
+    for \(let v = n || 0; v > 0; v = Math.floor\(v / 0x100000000\)\) key.push\(v & 0xFFFFFFFF\);
+    if \(!key.length\) key.push\(0\);
+    mt[0] = 19650218; for \(idx = 1; idx < 624; ++idx\) mt[idx] = \(u\(1812433253, mt[idx - 1] ^ \(mt[idx - 1] >>> 30\)\) + idx\) >>> 0;
+    let i = 1, j = 0;
+    for \(let k = Math.max\(624, key.length\); k > 0; --k, ++i, ++j\) {
+        if \(i >= 624\) { mt[0] = mt[623]; i = 1; } if \(j >= key.length\) j = 0;
+        mt[i] = \(\(mt[i] ^ u\(mt[i - 1] ^ \(mt[i - 1] >>> 30\), 1664525\)\) + key[j] + j\) >>> 0;
+    }
+    for \(let k = 623; k > 0; --k, ++i\) {
+        if \(i >= 624\) { mt[0] = mt[623]; i = 1; }
+        mt[i] = \(\(mt[i] ^ u\(mt[i - 1] ^ \(mt[i - 1] >>> 30\), 1566083941\)\) - i\) >>> 0;
+    }
+    mt[0] = 0x80000000; idx = 624; _gauss_next = null;
+}
+function int32\(\) {
+    if \(idx >= 624\) {
+        for \(let k = 0; k < 624; ++k\) { // twist
+            const y = \(mt[k] & 0x80000000\) | \(mt[\(k + 1\) % 624] & 0x7FFFFFFF\);
+            mt[k] = \(mt[\(k + 397\) % 624] ^ \(y >>> 1\) ^ \(y & 1 ? 0x9908B0DF : 0\)\) >>> 0;
+        } idx = 0;
+    }
+    let y = mt[idx++];
+    y ^= y >>> 11; y ^= \(y << 7\) & 0x9D2C5680; y ^= \(y << 15\) & 0xEFC60000; y ^= y >>> 18;
+    return y >>> 0;
+}
+function random\(\) { return \(\(int32\(\) >>> 5\) * 67108864.0 + \(int32\(\) >>> 6\)\) / 9007199254740992.0; }
+function gauss\(mu = 0, sigma = 1\) { // Box-Muller with cached spare \(matches Python\)
+    let z = _gauss_next; _gauss_next = null;
+    if \(z === null\) {
+        const x2pi = random\(\) * 2 * Math.PI, g2rad = Math.sqrt\(-2 * Math.log\(1 - random\(\)\)\);
+        z = Math.cos\(x2pi\) * g2rad; _gauss_next = Math.sin\(x2pi\) * g2rad;
+    }
+    return mu + z * sigma;
+}
+function shuffle\(arr\) {
+    for \(let i = arr.length - 1; i > 0; --i\) { // Fisher-Yates via getrandbits \(matches Python\)
+        const k = 32 - Math.clz32\(i + 1\); let r = int32\(\) >>> \(32 - k\); while \(r > i\) r = int32\(\) >>> \(32 - k\);
+        const t = arr[i]; arr[i] = arr[r]; arr[r] = t;
+    }
+}
+function choices\(population, weights\) { // bisect on cumulative weights \(matches Python\)
+    const cum = new Float64Array\(weights.length\); cum[0] = weights[0];
+    for \(let i = 1; i < weights.length; ++i\) cum[i] = cum[i - 1] + weights[i];
+    const x = random\(\) * cum[cum.length - 1];
+    let lo = 0, hi = cum.length - 1;
+    while \(lo < hi\) { const mid = \(lo + hi\) >> 1; x < cum[mid] ? hi = mid : lo = mid + 1; }
+    return population[lo];
+}
+
+var rand_obj = { seed: seed, random: random, gauss: gauss, shuffle: shuffle, choices: choices };
+
+
+        var global_state = {
+            output_buffer: "",
+            current_step: 0,
+            num_steps_val: 0,
+            docs: [],
+            char_to_id: null,
+            BOS: null,
+            vocab_size: 0,
+            n_layer: 0,
+            block_size: 0,
+            gpt: null,
+            softmax: null,
+            uchars: null,
+            learning_rate: 0.01,
+            beta1: 0.85,
+            beta2: 0.99,
+            eps_adam: 1e-8,
+            m_buf: null,
+            v_buf: null,
+            params: null,
+            output_lines: []
+        };
+
+        function print_out\(msg\) {
+            global_state.output_lines.push\(msg\);
+            if \(global_state.output_lines.length > 28\) {
+                global_state.output_lines.shift\(\);
+            }
+            global_state.output_buffer = global_state.output_lines.join\("\\n"\);
+        }
+        
+        function flush_output\(\) {
+            var f = this.getField\("output"\);
+            if \(f\) f.value = global_state.output_buffer;
+        }
+
+        function showUI\(mode\) {
+            var VISIBLE = 0;
+            var HIDDEN = 1;
+            var fields = ["n_embd", "n_head", "n_layer", "block_size", "learning_rate", "num_steps", "temperature", "btn_train", "btn_infer", "dataset", "btn_submit", "btn_back", "output", "lbl_n_embd", "lbl_n_head", "lbl_n_layer", "lbl_block_size", "lbl_learning_rate", "lbl_num_steps", "lbl_temperature"];
+            for \(var i=0; i<fields.length; i++\) {
+                var f = this.getField\(fields[i]\);
+                if \(f\) f.display = HIDDEN;
+            }
+
+            if \(mode === "initial"\) {
+                var initial = ["n_embd", "n_head", "n_layer", "block_size", "learning_rate", "num_steps", "temperature", "btn_train", "lbl_n_embd", "lbl_n_head", "lbl_n_layer", "lbl_block_size", "lbl_learning_rate", "lbl_num_steps", "lbl_temperature"];
+                for \(var i=0; i<initial.length; i++\) {
+                    var f = this.getField\(initial[i]\);
+                    if \(f\) f.display = VISIBLE;
+                }
+                var infer = this.getField\("btn_infer"\);
+                if \(global_state.params && infer\) {
+                    infer.display = VISIBLE;
+                }
+            } else if \(mode === "dataset"\) {
+                var dataset = ["dataset", "btn_submit", "btn_back"];
+                for \(var i=0; i<dataset.length; i++\) {
+                    var f = this.getField\(dataset[i]\);
+                    if \(f\) f.display = VISIBLE;
+                }
+            } else if \(mode === "training" || mode === "inference"\) {
+                var f = this.getField\("output"\);
+                if \(f\) f.display = VISIBLE;
+            }
+        }
+
+        function startTrain\(\) {
+            try {
+                this.showUI\("dataset"\);
+            } catch \(e\) {
+                app.alert\("Error in startTrain: " + e.message\);
+            }
+        }
+
+        function submitDataset\(\) {
+            try {
+                var dataset_text = this.getField\("dataset"\).value;
+                if \(!dataset_text\) dataset_text = "";
+                dataset_text = dataset_text.trim\(\);
+                
+                if \(!dataset_text\) {
+                    app.alert\("Please provide a dataset."\);
+                    this.showUI\("dataset"\);
+                    return;
+                }
+
+                var isUrl = dataset_text.indexOf\("http://"\) === 0 || dataset_text.indexOf\("https://"\) === 0;
+                var doc_ref = this;
+
+                if \(isUrl\) {
+                    var url = dataset_text;
+                    if \(url.indexOf\("github.com"\) !== -1 && url.indexOf\("/blob/"\) !== -1\) {
+                        url = url.replace\("github.com", "raw.githubusercontent.com"\).replace\("/blob/", "/"\);
+                    }
+                    if \(typeof fetch !== 'undefined'\) {
+                        doc_ref.showUI\("training"\);
+                        global_state.output_lines = [];
+                        print_out\("Fetching dataset from URL..."\);
+                        doc_ref.flush_output\(\);
+                        
+                        fetch\(url\)
+                            .then\(function\(res\) {
+                                if \(!res.ok\) throw new Error\("HTTP " + res.status\);
+                                return res.text\(\);
+                            }\)
+                            .then\(function\(text\) {
+                                _continueTraining\(text, doc_ref\);
+                            }\)
+                            .catch\(function\(e\) {
+                                app.alert\("Fetch failed: " + e.message + "\\nYour PDF viewer likely blocks network requests for security. Please paste the raw text instead."\);
+                                doc_ref.showUI\("initial"\);
+                            }\);
+                        return;
+                    } else {
+                        app.alert\("Network fetching is not supported in this PDF viewer. Please paste the raw text instead."\);
+                        return;
+                    }
+                } else {
+                    _continueTraining\(dataset_text, doc_ref\);
+                }
+            } catch\(e\) {
+                app.alert\("Error in submitDataset: " + e.message\);
+            }
+        }
+
+        function _continueTraining\(dataset_text, doc_ref\) {
+            try {
+                const v_n_embd = parseInt\(doc_ref.getField\("n_embd"\).value\);
+                if \(isNaN\(v_n_embd\) || v_n_embd <= 0\) { app.alert\("n_embd must be a positive integer."\); doc_ref.showUI\("initial"\); return; }
+                const n_embd = v_n_embd;
+                
+                const v_n_head = parseInt\(doc_ref.getField\("n_head"\).value\);
+                if \(isNaN\(v_n_head\) || v_n_head <= 0\) { app.alert\("n_head must be a positive integer."\); doc_ref.showUI\("initial"\); return; }
+                const n_head = v_n_head;
+                
+                if \(n_embd % n_head !== 0\) { app.alert\("n_embd must be divisible by n_head."\); doc_ref.showUI\("initial"\); return; }
+                
+                const v_n_layer = parseInt\(doc_ref.getField\("n_layer"\).value\);
+                if \(isNaN\(v_n_layer\) || v_n_layer <= 0\) { app.alert\("n_layer must be a positive integer."\); doc_ref.showUI\("initial"\); return; }
+                const n_layer = v_n_layer;
+                
+                const v_block_size = parseInt\(doc_ref.getField\("block_size"\).value\);
+                if \(isNaN\(v_block_size\) || v_block_size <= 0\) { app.alert\("block_size must be a positive integer."\); doc_ref.showUI\("initial"\); return; }
+                const block_size = v_block_size;
+                
+                const v_learning_rate = parseFloat\(doc_ref.getField\("learning_rate"\).value\);
+                if \(isNaN\(v_learning_rate\) || v_learning_rate <= 0\) { app.alert\("learning_rate must be a positive float."\); doc_ref.showUI\("initial"\); return; }
+                const learning_rate = v_learning_rate;
+                
+                const v_num_steps = parseInt\(doc_ref.getField\("num_steps"\).value\);
+                if \(isNaN\(v_num_steps\) || v_num_steps <= 0\) { app.alert\("num_steps must be a positive integer."\); doc_ref.showUI\("initial"\); return; }
+                
+                doc_ref.showUI\("training"\);
+                global_state.output_lines = [];
+                print_out\("Starting training..."\);
+                doc_ref.flush_output\(\);
+                
+                rand_obj.seed\(42\);
+
+                var docs = dataset_text.split\('\\n'\).map\(function\(l\) { return l.trim\(\); }\).filter\(function\(l\) { return l.length > 0; }\);
+                rand_obj.shuffle\(docs\);
+                print_out\("num docs: " + docs.length\);
+                global_state.docs = docs;
+
+                var uchars_set = {};
+                for \(var i=0; i<docs.length; i++\) {
+                    for \(var j=0; j<docs[i].length; j++\) {
+                        uchars_set[docs[i][j]] = true;
+                    }
+                }
+                var uchars = Object.keys\(uchars_set\).sort\(\);
+                var char_to_id = new Map\(uchars.map\(function\(ch, i\) { return [ch, i]; }\)\);
+                var BOS = uchars.length;
+                var vocab_size = uchars.length + 1;
+                print_out\("vocab size: " + vocab_size\);
+
+                global_state.uchars = uchars;
+                global_state.char_to_id = char_to_id;
+                global_state.BOS = BOS;
+                global_state.vocab_size = vocab_size;
+
+                var _gen = 0;
+                class Value {
+                    constructor\(data, children, local_grads\) {
+                        this.data = data;
+                        this.grad = 0;
+                        this._c0 = \(children && children.length > 0\) ? children[0] : null;
+                        this._c1 = \(children && children.length > 1\) ? children[1] : null;
+                        this._lg0 = \(local_grads && local_grads.length > 0\) ? local_grads[0] : null;
+                        this._lg1 = \(local_grads && local_grads.length > 1\) ? local_grads[1] : null;
+                        this._nch = children ? children.length : 0;
+                        this._gen = 0;
+                    }
+                    add\(other\) {
+                        if \(other instanceof Value\) return new Value\(this.data + other.data, [this, other], [1, 1]\);
+                        return new Value\(this.data + other, [this], [1]\);
+                    }
+                    mul\(other\) {
+                        if \(other instanceof Value\) return new Value\(this.data * other.data, [this, other], [other.data, this.data]\);
+                        return new Value\(this.data * other, [this], [other]\);
+                    }
+                    pow\(other\) { return new Value\(Math.pow\(this.data, other\), [this], [other * Math.pow\(this.data, other - 1\)]\); }
+                    log\(\) { return new Value\(Math.log\(this.data\), [this], [1 / this.data]\); }
+                    exp\(\) { const e = Math.exp\(this.data\); return new Value\(e, [this], [e]\); }
+                    relu\(\) { return new Value\(Math.max\(0, this.data\), [this], [+\(this.data > 0\)]\); }
+                    neg\(\) { return new Value\(-this.data, [this], [-1]\); }
+                    sub\(other\) { return this.add\(other instanceof Value ? other.neg\(\) : -other\); }
+                    div\(other\) { return this.mul\(other instanceof Value ? other.pow\(-1\) : 1 / other\); }
+                    backward\(\) {
+                        const gen = ++_gen;
+                        const topo = [];
+                        function build_topo\(v\) {
+                            if \(v._gen === gen\) return;
+                            v._gen = gen;
+                            if \(v._nch >= 1\) build_topo\(v._c0\);
+                            if \(v._nch === 2\) build_topo\(v._c1\);
+                            topo.push\(v\);
+                        }
+                        build_topo\(this\);
+                        this.grad = 1;
+                        for \(let i = topo.length - 1; i >= 0; --i\) {
+                            const v = topo[i], g = v.grad;
+                            if \(v._nch >= 1\) v._c0.grad += v._lg0 * g;
+                            if \(v._nch === 2\) v._c1.grad += v._lg1 * g;
+                        }
+                    }
+                }
+                global_state.Value = Value;
+
+                const head_dim = Math.floor\(n_embd / n_head\);
+                const scale = 1 / Math.pow\(head_dim, 0.5\);
+                const matrix = \(nout, nin, std\) => Array.from\({ length: nout }, \(\) => Array.from\({ length: nin }, \(\) => new Value\(rand_obj.gauss\(0, std || 0.08\)\)\)\);
+                const state_dict = { wte: matrix\(vocab_size, n_embd\), wpe: matrix\(block_size, n_embd\), lm_head: matrix\(vocab_size, n_embd\) };
+                for \(let i = 0; i < n_layer; ++i\) {
+                    state_dict[`layer${i}.attn_wq`] = matrix\(n_embd, n_embd\);
+                    state_dict[`layer${i}.attn_wk`] = matrix\(n_embd, n_embd\);
+                    state_dict[`layer${i}.attn_wv`] = matrix\(n_embd, n_embd\);
+                    state_dict[`layer${i}.attn_wo`] = matrix\(n_embd, n_embd\);
+                    state_dict[`layer${i}.mlp_fc1`] = matrix\(4 * n_embd, n_embd\);
+                    state_dict[`layer${i}.mlp_fc2`] = matrix\(n_embd, 4 * n_embd\);
+                }
+                const params = [];
+                for \(var key in state_dict\) {
+                    var mat = state_dict[key];
+                    for \(var r=0; r<mat.length; r++\) {
+                        for\(var c=0; c<mat[r].length; c++\) {
+                            params.push\(mat[r][c]\);
+                        }
+                    }
+                }
+                print_out\("num params: " + params.length\);
+                
+                global_state.state_dict = state_dict;
+                global_state.n_layer = n_layer;
+                global_state.n_head = n_head;
+                global_state.head_dim = head_dim;
+                global_state.scale = scale;
+                global_state.block_size = block_size;
+                global_state.params = params;
+                global_state.learning_rate = learning_rate;
+
+                const sum = \(arr\) => arr.reduce\(\(a, b\) => a.add\(b\)\);
+                const zip = \(a, b\) => a.map\(\(ai, i\) => [ai, b[i]]\);
+
+                function linear\(x, w\) {
+                    return w.map\(wo => sum\(wo.map\(\(wi, i\) => wi.mul\(x[i]\)\)\)\);
+                }
+
+                function softmax\(logits\) {
+                    const max_val = Math.max.apply\(null, logits.map\(v => v.data\)\);
+                    const exps = logits.map\(v => v.sub\(max_val\).exp\(\)\);
+                    const total = sum\(exps\);
+                    return exps.map\(e => e.div\(total\)\);
+                }
+
+                function rmsnorm\(x\) {
+                    const ms = sum\(x.map\(xi => xi.mul\(xi\)\)\).mul\(1 / x.length\);
+                    const s = ms.add\(1e-5\).pow\(-0.5\);
+                    return x.map\(xi => xi.mul\(s\)\);
+                }
+
+                function gpt\(token_id, pos_id, keys, values\) {
+                    const tok_emb = state_dict['wte'][token_id];
+                    const pos_emb = state_dict['wpe'][pos_id];
+                    let x = zip\(tok_emb, pos_emb\).map\(function\(pair\) { return pair[0].add\(pair[1]\); }\);
+                    x = rmsnorm\(x\);
+
+                    for \(let li = 0; li < n_layer; ++li\) {
+                        let x_residual = x;
+                        x = rmsnorm\(x\);
+                        const q = linear\(x, state_dict[`layer${li}.attn_wq`]\);
+                        const k = linear\(x, state_dict[`layer${li}.attn_wk`]\);
+                        const v = linear\(x, state_dict[`layer${li}.attn_wv`]\);
+                        keys[li].push\(k\);
+                        values[li].push\(v\);
+                        const x_attn = [];
+                        for \(let h = 0; h < n_head; ++h\) {
+                            const hs = h * head_dim;
+                            const q_h = q.slice\(hs, hs + head_dim\);
+                            const k_h = keys[li].map\(ki => ki.slice\(hs, hs + head_dim\)\);
+                            const v_h = values[li].map\(vi => vi.slice\(hs, hs + head_dim\)\);
+                            const attn_logits = k_h.map\(kt => sum\(zip\(q_h, kt\).map\(function\(pair\) { return pair[0].mul\(pair[1]\); }\)\).mul\(scale\)\);
+                            const attn_weights = softmax\(attn_logits\);
+                            for \(let j = 0; j < head_dim; ++j\)
+                                x_attn.push\(sum\(attn_weights.map\(\(aw, t\) => aw.mul\(v_h[t][j]\)\)\)\);
+                        }
+                        x = linear\(x_attn, state_dict[`layer${li}.attn_wo`]\);
+                        x = x.map\(\(a, i\) => a.add\(x_residual[i]\)\);
+                        x_residual = x;
+                        x = rmsnorm\(x\);
+                        x = linear\(x, state_dict[`layer${li}.mlp_fc1`]\);
+                        x = x.map\(xi => xi.relu\(\)\);
+                        x = linear\(x, state_dict[`layer${li}.mlp_fc2`]\);
+                        x = x.map\(\(a, i\) => a.add\(x_residual[i]\)\);
+                    }
+                    return linear\(x, state_dict['lm_head']\);
+                }
+
+                global_state.gpt = gpt;
+                global_state.softmax = softmax;
+
+                global_state.m_buf = new Float64Array\(params.length\);
+                global_state.v_buf = new Float64Array\(params.length\);
+
+                global_state.num_steps_val = v_num_steps;
+                global_state.step = 0;
+                var doc_ref = this;
+                
+                var trainStep = function\(\) {
+                    try {
+                        var chunk_size = 5;
+                        var start_step = global_state.step;
+                        var end_step = Math.min\(start_step + chunk_size, global_state.num_steps_val\);
+                        
+                        for \(var step = start_step; step < end_step; ++step\) {
+                            const doc = global_state.docs[step % global_state.docs.length];
+                            const tokens = [global_state.BOS];
+                            for\(var i=0; i<doc.length; i++\) tokens.push\(global_state.char_to_id.get\(doc[i]\)\);
+                            tokens.push\(global_state.BOS\);
+                            const n = Math.min\(global_state.block_size, tokens.length - 1\);
+
+                            const keys = Array.from\({ length: global_state.n_layer }, \(\) => []\);
+                            const values = Array.from\({ length: global_state.n_layer }, \(\) => []\);
+                            const losses = [];
+                            for \(let pos_id = 0; pos_id < n; ++pos_id\) {
+                                const token_id = tokens[pos_id], target_id = tokens[pos_id + 1];
+                                const logits = global_state.gpt\(token_id, pos_id, keys, values\);
+                                const probs = global_state.softmax\(logits\);
+                                const loss_t = probs[target_id].log\(\).neg\(\);
+                                losses.push\(loss_t\);
+                            }
+                            const loss = losses.reduce\(\(a, b\) => a.add\(b\)\).mul\(1 / n\);
+
+                            loss.backward\(\);
+
+                            const lr_t = global_state.learning_rate * \(1 - step / global_state.num_steps_val\);
+                            const bc1 = 1 - Math.pow\(global_state.beta1, step + 1\), bc2 = 1 - Math.pow\(global_state.beta2, step + 1\);
+                            for \(let i = 0; i < global_state.params.length; ++i\) {
+                                const p = global_state.params[i];
+                                global_state.m_buf[i] = global_state.beta1 * global_state.m_buf[i] + \(1 - global_state.beta1\) * p.grad;
+                                global_state.v_buf[i] = global_state.beta2 * global_state.v_buf[i] + \(1 - global_state.beta2\) * Math.pow\(p.grad, 2\);
+                                const m_hat = global_state.m_buf[i] / bc1;
+                                const v_hat = global_state.v_buf[i] / bc2;
+                                p.data -= lr_t * m_hat / \(Math.sqrt\(v_hat\) + global_state.eps_adam\);
+                                p.grad = 0;
+                            }
+
+                            if \(\(step+1\) % 5 === 0 || step === 0 || step === global_state.num_steps_val - 1\) {
+                                print_out\("step " + \(step+1\) + " / " + global_state.num_steps_val + " | loss " + loss.data.toFixed\(4\)\);
+                            }
+                        }
+                        
+                        global_state.step = end_step;
+                        doc_ref.flush_output\(\);
+                        
+                        if \(global_state.step < global_state.num_steps_val\) {
+                            if \(typeof setTimeout !== 'undefined'\) {
+                                setTimeout\(trainStep, 10\);
+                            } else if \(typeof app !== 'undefined' && app.setTimeOut\) {
+                                doc_ref.trainStep = trainStep;
+                                app.setTimeOut\("trainStep\(\);", 10\);
+                            } else {
+                                trainStep\(\);
+                            }
+                        } else {
+                            print_out\("Training completed!"\);
+                            doc_ref.flush_output\(\);
+                            
+                            var btn_infer = doc_ref.getField\("btn_infer"\);
+                            if \(btn_infer\) btn_infer.display = 0;
+                            var btn_train = doc_ref.getField\("btn_train"\);
+                            if \(btn_train\) {
+                                btn_train.display = 0;
+                                btn_train.value = "Train Again";
+                            }
+                        }
+                    } catch\(e\) {
+                        app.alert\("Error during training step: " + e.message + " line: " + e.lineNumber + "\\n" + e.stack\);
+                        doc_ref.showUI\("initial"\);
+                    }
+                };
+                
+                trainStep\(\);
+                
+            } catch\(e\) {
+                app.alert\("Error during training: " + e.message + " line: " + e.lineNumber + "\\n" + e.stack\);
+                this.showUI\("initial"\);
+            }
+        }
+
+        function runInference\(\) {
+            try {
+                if \(!global_state.params\) {
+                    app.alert\("Please run training first!"\);
+                    return;
+                }
+                this.showUI\("inference"\);
+                
+                const v_temperature = parseFloat\(this.getField\("temperature"\).value\);
+                if \(isNaN\(v_temperature\) || v_temperature <= 0\) { app.alert\("temperature must be a positive float."\); this.showUI\("initial"\); return; }
+                const temperature_val = v_temperature;
+                
+                global_state.output_lines = [];
+                print_out\("--- inference \(hallucinated text\) ---"\);
+                
+                const vocab_size = global_state.vocab_size;
+                const BOS = global_state.BOS;
+                const token_ids = Array.from\({ length: vocab_size }, \(_, i\) => i\);
+                const n_layer = global_state.n_layer;
+                const block_size = global_state.block_size;
+                const gpt = global_state.gpt;
+                const softmax = global_state.softmax;
+                const uchars = global_state.uchars;
+
+                for \(let sample_idx = 0; sample_idx < 5; ++sample_idx\) {
+                    const keys = Array.from\({ length: n_layer }, \(\) => []\);
+                    const values = Array.from\({ length: n_layer }, \(\) => []\);
+                    let token_id = BOS;
+                    const sample = [];
+                    for \(let pos_id = 0; pos_id < block_size; ++pos_id\) {
+                        const logits = gpt\(token_id, pos_id, keys, values\);
+                        const probs = softmax\(logits.map\(l => l.div\(temperature_val\)\)\);
+                        token_id = rand_obj.choices\(token_ids, probs.map\(p => p.data\)\);
+                        if \(token_id === BOS\) break;
+                        sample.push\(uchars[token_id]\);
+                    }
+                    print_out\("sample " + \(sample_idx + 1\) + ": " + sample.join\(''\)\);
+                }
+                
+                this.flush_output\(\);
+
+                var btn_train = this.getField\("btn_train"\);
+                if \(btn_train\) btn_train.display = 0;
+                var btn_infer = this.getField\("btn_infer"\);
+                if \(btn_infer\) btn_infer.display = 0;
+
+            } catch\(e\) {
+                print_out\("Error during inference: " + e.message\);
+                this.flush_output\(\);
+            }
+        }
+        
+        function goBack\(\) {
+            this.showUI\("initial"\);
+        }
+
+        // EXPORT to document global context
+        this.showUI = showUI;
+        this.startTrain = startTrain;
+        this.submitDataset = submitDataset;
+        this.runInference = runInference;
+        this.goBack = goBack;
+        this.flush_output = flush_output;
+        this.print_out = print_out;
+    )
+  /S /JavaScript>>]>>>>
+  /Pages 22 0 R /Type /Catalog>>
+endobj
+2 0 obj
+<</BBox [0 0 90 20] /FormType 1 /Length 155 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        1.0 1.0 1.0 rg
+        0 0 90 20 re f
+        0.3 0.3 0.3 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (n_embd) Tj
+        ET
+        
+endstream
+endobj
+3 0 obj
+<</BBox [0 0 100 20] /FormType 1 /Length 149 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.96 0.96 0.96 rg
+        0 0 100 20 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (16) Tj
+        ET
+        
+endstream
+endobj
+4 0 obj
+<</BBox [0 0 90 20] /FormType 1 /Length 155 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        1.0 1.0 1.0 rg
+        0 0 90 20 re f
+        0.3 0.3 0.3 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (n_head) Tj
+        ET
+        
+endstream
+endobj
+5 0 obj
+<</BBox [0 0 100 20] /FormType 1 /Length 148 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.96 0.96 0.96 rg
+        0 0 100 20 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (4) Tj
+        ET
+        
+endstream
+endobj
+6 0 obj
+<</BBox [0 0 90 20] /FormType 1 /Length 156 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        1.0 1.0 1.0 rg
+        0 0 90 20 re f
+        0.3 0.3 0.3 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (n_layer) Tj
+        ET
+        
+endstream
+endobj
+7 0 obj
+<</BBox [0 0 100 20] /FormType 1 /Length 148 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.96 0.96 0.96 rg
+        0 0 100 20 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (1) Tj
+        ET
+        
+endstream
+endobj
+8 0 obj
+<</BBox [0 0 90 20] /FormType 1 /Length 159 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        1.0 1.0 1.0 rg
+        0 0 90 20 re f
+        0.3 0.3 0.3 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (block_size) Tj
+        ET
+        
+endstream
+endobj
+9 0 obj
+<</BBox [0 0 100 20] /FormType 1 /Length 149 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.96 0.96 0.96 rg
+        0 0 100 20 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (16) Tj
+        ET
+        
+endstream
+endobj
+10 0 obj
+<</BBox [0 0 90 20] /FormType 1 /Length 162 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        1.0 1.0 1.0 rg
+        0 0 90 20 re f
+        0.3 0.3 0.3 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (learning_rate) Tj
+        ET
+        
+endstream
+endobj
+11 0 obj
+<</BBox [0 0 100 20] /FormType 1 /Length 151 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.96 0.96 0.96 rg
+        0 0 100 20 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (0.01) Tj
+        ET
+        
+endstream
+endobj
+12 0 obj
+<</BBox [0 0 90 20] /FormType 1 /Length 158 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        1.0 1.0 1.0 rg
+        0 0 90 20 re f
+        0.3 0.3 0.3 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (num_steps) Tj
+        ET
+        
+endstream
+endobj
+13 0 obj
+<</BBox [0 0 100 20] /FormType 1 /Length 150 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.96 0.96 0.96 rg
+        0 0 100 20 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (100) Tj
+        ET
+        
+endstream
+endobj
+14 0 obj
+<</BBox [0 0 90 20] /FormType 1 /Length 160 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        1.0 1.0 1.0 rg
+        0 0 90 20 re f
+        0.3 0.3 0.3 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (temperature) Tj
+        ET
+        
+endstream
+endobj
+15 0 obj
+<</BBox [0 0 100 20] /FormType 1 /Length 150 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.96 0.96 0.96 rg
+        0 0 100 20 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 6.0 Td
+        (0.5) Tj
+        ET
+        
+endstream
+endobj
+16 0 obj
+<</BBox [0 0 120 35] /FormType 1 /Length 161 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.1 0.45 0.85 rg
+        0 0 120 35 re f
+        1 1 1 rg
+        BT
+        /F1 12 Tf
+        27.0 13.5 Td
+        (Train Model) Tj
+        ET
+        
+endstream
+endobj
+17 0 obj
+<</BBox [0 0 120 35] /FormType 1 /Length 157 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.2 0.6 0.3 rg
+        0 0 120 35 re f
+        1 1 1 rg
+        BT
+        /F1 12 Tf
+        33.0 13.5 Td
+        (Inference) Tj
+        ET
+        
+endstream
+endobj
+18 0 obj
+<</BBox [0 0 552 470] /FormType 1 /Length 150 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.97 0.97 0.97 rg
+        0 0 552 470 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 231.0 Td
+        () Tj
+        ET
+        
+endstream
+endobj
+19 0 obj
+<</BBox [0 0 552 620] /FormType 1 /Length 5150 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.98 0.98 0.98 rg
+        0 0 552 620 re f
+        0 0 0 rg
+        BT
+        /F1 12 Tf
+        5 306.0 Td
+        (emma
+olivia
+ava
+isabella
+sophia
+charlotte
+mia
+amelia
+harper
+evelyn
+abigail
+emily
+elizabeth
+mila
+ella
+avery
+sofia
+camila
+aria
+scarlett
+victoria
+madison
+luna
+grace
+chloe
+penelope
+layla
+riley
+zoey
+nora
+lily
+eleanor
+hannah
+lillian
+addison
+aubrey
+ellie
+stella
+natalie
+zoe
+leah
+hazel
+violet
+aurora
+savannah
+audrey
+brooklyn
+bella
+claire
+skylar
+lucy
+paisley
+everly
+anna
+caroline
+nova
+genesis
+emilia
+kennedy
+samantha
+maya
+willow
+kinsley
+naomi
+aaliyah
+elena
+sarah
+ariana
+allison
+gabriella
+alice
+madelyn
+cora
+ruby
+eva
+serenity
+autumn
+adeline
+hailey
+gianna
+valentina
+isla
+eliana
+quinn
+nevaeh
+ivy
+sadie
+piper
+lydia
+alexa
+josephine
+emery
+julia
+delilah
+arianna
+vivian
+kaylee
+sophie
+brielle
+madeline
+peyton
+rylee
+clara
+hadley
+melanie
+mackenzie
+reagan
+adalynn
+liliana
+aubree
+jade
+katherine
+isabelle
+natalia
+raelynn
+maria
+athena
+ximena
+arya
+leilani
+taylor
+faith
+rose
+kylie
+alexandra
+mary
+margaret
+lyla
+ashley
+amaya
+eliza
+brianna
+bailey
+andrea
+khloe
+jasmine
+melody
+iris
+isabel
+norah
+annabelle
+valeria
+emerson
+adalyn
+ryleigh
+eden
+emersyn
+anastasia
+kayla
+alyssa
+juliana
+charlie
+esther
+ariel
+cecilia
+valerie
+alina
+molly
+reese
+aliyah
+lilly
+parker
+finley
+morgan
+sydney
+jordyn
+eloise
+trinity
+daisy
+kimberly
+lauren
+genevieve
+sara
+arabella
+harmony
+elise
+remi
+teagan
+alexis
+london
+sloane
+laila
+lucia
+diana
+juliette
+sienna
+elliana
+londyn
+ayla
+callie
+gracie
+josie
+amara
+jocelyn
+daniela
+everleigh
+mya
+rachel
+summer
+alana
+brooke
+alaina
+mckenzie
+catherine
+amy
+presley
+journee
+rosalie
+ember
+brynlee
+rowan
+joanna
+paige
+rebecca
+ana
+sawyer
+mariah
+nicole
+brooklynn
+payton
+marley
+fiona
+georgia
+lila
+harley
+adelyn
+alivia
+noelle
+gemma
+vanessa
+journey
+makayla
+angelina
+adaline
+catalina
+alayna
+julianna
+leila
+lola
+adriana
+june
+juliet
+jayla
+river
+tessa
+lia
+dakota
+delaney
+selena
+blakely
+ada
+camille
+zara
+malia
+hope
+samara
+vera
+mckenna
+briella
+izabella
+hayden
+raegan
+michelle
+angela
+ruth
+freya
+kamila
+vivienne
+aspen
+olive
+kendall
+elaina
+thea
+kali
+destiny
+amiyah
+evangeline
+cali
+blake
+elsie
+juniper
+alexandria
+myla
+ariella
+kate
+mariana
+lilah
+charlee
+daleyza
+nyla
+jane
+maggie
+zuri
+aniyah
+lucille
+leia
+melissa
+adelaide
+amina
+giselle
+lena
+camilla
+miriam
+millie
+brynn
+gabrielle
+sage
+annie
+logan
+lilliana
+haven
+jessica
+kaia
+magnolia
+amira
+adelynn
+makenzie
+stephanie
+nina
+phoebe
+arielle
+evie
+lyric
+alessandra
+gabriela
+paislee
+raelyn
+madilyn
+paris
+makenna
+kinley
+gracelyn
+talia
+maeve
+rylie
+kiara
+evelynn
+brinley
+jacqueline
+laura
+gracelynn
+lexi
+ariah
+fatima
+jennifer
+kehlani
+alani
+ariyah
+luciana
+allie
+heidi
+maci
+phoenix
+felicity
+joy
+kenzie
+veronica
+margot
+addilyn
+lana
+cassidy
+remington
+saylor
+ryan
+keira
+harlow
+miranda
+angel
+amanda
+daniella
+royalty
+gwendolyn
+ophelia
+heaven
+jordan
+madeleine
+esmeralda
+kira
+miracle
+elle
+amari
+danielle
+daphne
+willa
+haley
+gia
+kaitlyn
+oakley
+kailani
+winter
+alicia
+serena
+nadia
+aviana
+demi
+jada
+braelynn
+dylan
+ainsley
+alison
+camryn
+avianna
+bianca
+skyler
+scarlet
+maddison
+nylah
+sarai
+regina
+dahlia
+nayeli
+raven
+helen
+adrianna
+averie
+skye
+kelsey
+tatum
+kensley
+maliyah
+erin
+viviana
+jenna
+anaya
+carolina
+shelby
+sabrina
+mikayla
+annalise
+octavia
+lennon
+blair
+carmen
+yaretzi
+kennedi
+mabel
+zariah
+kyla
+christina
+selah
+celeste
+eve
+mckinley
+milani
+frances
+jimena
+kylee
+leighton
+katie
+aitana
+kayleigh
+sierra
+kathryn
+rosemary
+jolene
+alondra
+elisa
+helena
+charleigh
+hallie
+lainey
+avah
+jazlyn
+kamryn
+mira
+cheyenne
+francesca
+antonella
+wren
+chelsea
+amber
+emory
+lorelei
+nia
+abby
+april
+emelia
+carter
+aylin
+cataleya
+bethany
+marlee
+carly
+kaylani
+emely
+liana
+madelynn
+cadence
+matilda
+sylvia
+myra
+fernanda
+oaklyn
+elianna
+hattie
+dayana
+kendra
+maisie
+malaysia
+kara
+katelyn
+maia
+celine
+cameron
+renata
+jayleen
+charli
+emmalyn
+holly
+azalea
+leona
+alejandra
+bristol
+collins
+imani
+meadow
+alexia
+edith
+kaydence
+leslie
+lilith
+kora
+aisha
+meredith
+danna
+wynter
+emberly
+julieta
+michaela
+alayah
+jemma
+reign
+colette
+kaliyah
+elliott
+johanna
+remy
+sutton
+emmy
+virginia
+briana
+oaklynn
+adelina
+everlee
+megan
+angelica
+justice
+mariam
+khaleesi
+macie
+karsyn
+alanna
+aleah
+mae
+mallory
+esme
+skyla
+madilynn
+charley
+allyson
+hanna
+shiloh
+henley
+macy
+maryam
+ivanna
+ashlynn
+lorelai
+amora
+ashlyn
+sasha
+baylee
+beatrice
+itzel
+priscilla
+marie
+jayda
+liberty
+rory
+alessia
+alaia
+janelle
+kalani
+gloria
+sloan
+dorothy
+greta
+julie
+zahra
+savanna
+annabella
+poppy
+amalia
+zaylee
+cecelia
+coraline
+kimber
+emmie
+anne
+karina
+kassidy
+kynlee
+monroe
+anahi
+jaliyah
+jazmin
+maren
+monica
+siena
+marilyn
+reyna
+kyra
+lilian
+jamie
+melany
+alaya
+ariya
+kelly
+rosie
+adley
+dream
+jaylah
+laurel
+jazmine
+mina
+karla
+bailee
+aubrie
+katalina
+melina
+harlee
+elliot
+hayley
+elaine
+karen
+dallas
+irene
+lylah
+ivory
+chaya
+rosa
+aleena
+braelyn
+nola
+alma
+leyla
+pearl
+addyson
+roselyn
+lacey
+lennox
+reina
+aurelia
+noa
+janiyah
+jessie
+madisyn
+saige
+alia
+tiana
+astrid
+cassandra
+kyleigh
+romina
+stevie
+haylee
+zelda
+lillie
+aileen
+brylee
+eileen
+yara
+ensley
+lauryn
+giuliana
+livia
+anya
+mikaela
+palmer
+lyra
+mara
+marina
+kailey
+liv
+clementine
+kenna
+briar
+emerie
+galilea
+tiffany
+bonnie
+elyse
+cynthia
+frida
+kinslee
+tatiana
+joelle
+armani
+jolie
+nalani
+rayna
+yareli
+meghan
+rebekah
+addilynn
+faye
+zariyah
+lea
+aliza
+julissa
+lilyana
+anika
+kairi
+aniya
+noemi
+a) Tj
+        ET
+        
+endstream
+endobj
+20 0 obj
+<</BBox [0 0 100 35] /FormType 1 /Length 154 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.5 0.5 0.5 rg
+        0 0 100 35 re f
+        1 1 1 rg
+        BT
+        /F1 12 Tf
+        32.0 13.5 Td
+        (Cancel) Tj
+        ET
+        
+endstream
+endobj
+21 0 obj
+<</BBox [0 0 120 35] /FormType 1 /Length 164 /Matrix [1 0 0 1 0 0]
+  /Subtype /Form /Type /XObject>>
+stream
+
+        0.1 0.45 0.85 rg
+        0 0 120 35 re f
+        1 1 1 rg
+        BT
+        /F1 12 Tf
+        18.0 13.5 Td
+        (Submit Dataset) Tj
+        ET
+        
+endstream
+endobj
+22 0 obj
+<</Count 1 /Kids [23 0 R] /Type /Pages>>
+endobj
+23 0 obj
+<</Annots
+  [<</AP <</N 2 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [30 700 120 720] /Subtype /Widget /T
+  (lbl_n_embd) /Type /Annot /V (n_embd)>>
+  <</AP <</N 3 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 700 230 720] /Subtype /Widget /T
+  (n_embd) /Type /Annot /V (16)>>
+  <</AP <</N 4 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [280 700 370 720] /Subtype /Widget /T
+  (lbl_n_head) /Type /Annot /V (n_head)>>
+  <</AP <</N 5 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [380 700 480 720] /Subtype /Widget /T
+  (n_head) /Type /Annot /V (4)>>
+  <</AP <</N 6 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [30 660 120 680] /Subtype /Widget /T
+  (lbl_n_layer) /Type /Annot /V (n_layer)>>
+  <</AP <</N 7 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 660 230 680] /Subtype /Widget /T
+  (n_layer) /Type /Annot /V (1)>>
+  <</AP <</N 8 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1 /MK
+  <</BG [1 1 1]>> /Rect [280 660 370 680] /Subtype /Widget /T
+  (lbl_block_size) /Type /Annot /V (block_size)>>
+  <</AP <</N 9 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [380 660 480 680] /Subtype /Widget /T
+  (block_size) /Type /Annot /V (16)>>
+  <</AP <</N 10 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1
+  /MK <</BG [1 1 1]>> /Rect [30 620 120 640] /Subtype /Widget /T
+  (lbl_learning_rate) /Type /Annot /V (learning_rate)>>
+  <</AP <</N 11 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 620 230 640] /Subtype /Widget /T
+  (learning_rate) /Type /Annot /V (0.01)>>
+  <</AP <</N 12 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1
+  /MK <</BG [1 1 1]>> /Rect [280 620 370 640] /Subtype /Widget /T
+  (lbl_num_steps) /Type /Annot /V (num_steps)>>
+  <</AP <</N 13 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [380 620 480 640] /Subtype /Widget /T
+  (num_steps) /Type /Annot /V (100)>>
+  <</AP <</N 14 0 R>> /DA (/F1 12 Tf 0.3 0.3 0.3 rg) /F 4 /FT /Tx /Ff 1
+  /MK <</BG [1 1 1]>> /Rect [30 580 120 600] /Subtype /Widget /T
+  (lbl_temperature) /Type /Annot /V (temperature)>>
+  <</AP <</N 15 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 4 /FT /Tx /Ff 0 /MK
+  <</BG [0.96 0.96 0.96]>> /Rect [130 580 230 600] /Subtype /Widget /T
+  (temperature) /Type /Annot /V (0.5)>>
+  <</A
+  <</JS
+  (if \(typeof startTrain !== 'undefined'\) startTrain\(\); else if \(this.startTrain\) this.startTrain\(\); else app.alert\('startTrain not found'\);)
+  /S /JavaScript>>
+  /AP <</N 16 0 R>> /F 4 /FT /Btn /Ff 65536 /MK
+  <</BG [0.1 0.45 0.85] /CA (Train Model)>> /Rect [30 530 150 565]
+  /Subtype /Widget /T (btn_train) /Type /Annot /V (Train Model)>>
+  <</A
+  <</JS
+  (if \(typeof runInference !== 'undefined'\) runInference\(\); else if \(this.runInference\) this.runInference\(\); else app.alert\('runInference not found'\);)
+  /S /JavaScript>>
+  /AP <</N 17 0 R>> /F 6 /FT /Btn /Ff 65536 /MK
+  <</BG [0.2 0.6 0.3] /CA (Inference)>> /Rect [170 530 290 565] /Subtype
+  /Widget /T (btn_infer) /Type /Annot /V (Inference)>>
+  <</AP <</N 18 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 6 /FT /Tx /Ff 4096 /MK
+  <</BG [0.97 0.97 0.97]>> /Rect [30 30 582 500] /Subtype /Widget /T
+  (output) /Type /Annot>>
+  <</AP <</N 19 0 R>> /DA (/F1 12 Tf 0 0 0 rg) /F 6 /FT /Tx /Ff 4096 /MK
+  <</BG [0.98 0.98 0.98]>> /Rect [30 80 582 700] /Subtype /Widget /T
+  (dataset) /Type /Annot /V
+  (emma
+olivia
+ava
+isabella
+sophia
+charlotte
+mia
+amelia
+harper
+evelyn
+abigail
+emily
+elizabeth
+mila
+ella
+avery
+sofia
+camila
+aria
+scarlett
+victoria
+madison
+luna
+grace
+chloe
+penelope
+layla
+riley
+zoey
+nora
+lily
+eleanor
+hannah
+lillian
+addison
+aubrey
+ellie
+stella
+natalie
+zoe
+leah
+hazel
+violet
+aurora
+savannah
+audrey
+brooklyn
+bella
+claire
+skylar
+lucy
+paisley
+everly
+anna
+caroline
+nova
+genesis
+emilia
+kennedy
+samantha
+maya
+willow
+kinsley
+naomi
+aaliyah
+elena
+sarah
+ariana
+allison
+gabriella
+alice
+madelyn
+cora
+ruby
+eva
+serenity
+autumn
+adeline
+hailey
+gianna
+valentina
+isla
+eliana
+quinn
+nevaeh
+ivy
+sadie
+piper
+lydia
+alexa
+josephine
+emery
+julia
+delilah
+arianna
+vivian
+kaylee
+sophie
+brielle
+madeline
+peyton
+rylee
+clara
+hadley
+melanie
+mackenzie
+reagan
+adalynn
+liliana
+aubree
+jade
+katherine
+isabelle
+natalia
+raelynn
+maria
+athena
+ximena
+arya
+leilani
+taylor
+faith
+rose
+kylie
+alexandra
+mary
+margaret
+lyla
+ashley
+amaya
+eliza
+brianna
+bailey
+andrea
+khloe
+jasmine
+melody
+iris
+isabel
+norah
+annabelle
+valeria
+emerson
+adalyn
+ryleigh
+eden
+emersyn
+anastasia
+kayla
+alyssa
+juliana
+charlie
+esther
+ariel
+cecilia
+valerie
+alina
+molly
+reese
+aliyah
+lilly
+parker
+finley
+morgan
+sydney
+jordyn
+eloise
+trinity
+daisy
+kimberly
+lauren
+genevieve
+sara
+arabella
+harmony
+elise
+remi
+teagan
+alexis
+london
+sloane
+laila
+lucia
+diana
+juliette
+sienna
+elliana
+londyn
+ayla
+callie
+gracie
+josie
+amara
+jocelyn
+daniela
+everleigh
+mya
+rachel
+summer
+alana
+brooke
+alaina
+mckenzie
+catherine
+amy
+presley
+journee
+rosalie
+ember
+brynlee
+rowan
+joanna
+paige
+rebecca
+ana
+sawyer
+mariah
+nicole
+brooklynn
+payton
+marley
+fiona
+georgia
+lila
+harley
+adelyn
+alivia
+noelle
+gemma
+vanessa
+journey
+makayla
+angelina
+adaline
+catalina
+alayna
+julianna
+leila
+lola
+adriana
+june
+juliet
+jayla
+river
+tessa
+lia
+dakota
+delaney
+selena
+blakely
+ada
+camille
+zara
+malia
+hope
+samara
+vera
+mckenna
+briella
+izabella
+hayden
+raegan
+michelle
+angela
+ruth
+freya
+kamila
+vivienne
+aspen
+olive
+kendall
+elaina
+thea
+kali
+destiny
+amiyah
+evangeline
+cali
+blake
+elsie
+juniper
+alexandria
+myla
+ariella
+kate
+mariana
+lilah
+charlee
+daleyza
+nyla
+jane
+maggie
+zuri
+aniyah
+lucille
+leia
+melissa
+adelaide
+amina
+giselle
+lena
+camilla
+miriam
+millie
+brynn
+gabrielle
+sage
+annie
+logan
+lilliana
+haven
+jessica
+kaia
+magnolia
+amira
+adelynn
+makenzie
+stephanie
+nina
+phoebe
+arielle
+evie
+lyric
+alessandra
+gabriela
+paislee
+raelyn
+madilyn
+paris
+makenna
+kinley
+gracelyn
+talia
+maeve
+rylie
+kiara
+evelynn
+brinley
+jacqueline
+laura
+gracelynn
+lexi
+ariah
+fatima
+jennifer
+kehlani
+alani
+ariyah
+luciana
+allie
+heidi
+maci
+phoenix
+felicity
+joy
+kenzie
+veronica
+margot
+addilyn
+lana
+cassidy
+remington
+saylor
+ryan
+keira
+harlow
+miranda
+angel
+amanda
+daniella
+royalty
+gwendolyn
+ophelia
+heaven
+jordan
+madeleine
+esmeralda
+kira
+miracle
+elle
+amari
+danielle
+daphne
+willa
+haley
+gia
+kaitlyn
+oakley
+kailani
+winter
+alicia
+serena
+nadia
+aviana
+demi
+jada
+braelynn
+dylan
+ainsley
+alison
+camryn
+avianna
+bianca
+skyler
+scarlet
+maddison
+nylah
+sarai
+regina
+dahlia
+nayeli
+raven
+helen
+adrianna
+averie
+skye
+kelsey
+tatum
+kensley
+maliyah
+erin
+viviana
+jenna
+anaya
+carolina
+shelby
+sabrina
+mikayla
+annalise
+octavia
+lennon
+blair
+carmen
+yaretzi
+kennedi
+mabel
+zariah
+kyla
+christina
+selah
+celeste
+eve
+mckinley
+milani
+frances
+jimena
+kylee
+leighton
+katie
+aitana
+kayleigh
+sierra
+kathryn
+rosemary
+jolene
+alondra
+elisa
+helena
+charleigh
+hallie
+lainey
+avah
+jazlyn
+kamryn
+mira
+cheyenne
+francesca
+antonella
+wren
+chelsea
+amber
+emory
+lorelei
+nia
+abby
+april
+emelia
+carter
+aylin
+cataleya
+bethany
+marlee
+carly
+kaylani
+emely
+liana
+madelynn
+cadence
+matilda
+sylvia
+myra
+fernanda
+oaklyn
+elianna
+hattie
+dayana
+kendra
+maisie
+malaysia
+kara
+katelyn
+maia
+celine
+cameron
+renata
+jayleen
+charli
+emmalyn
+holly
+azalea
+leona
+alejandra
+bristol
+collins
+imani
+meadow
+alexia
+edith
+kaydence
+leslie
+lilith
+kora
+aisha
+meredith
+danna
+wynter
+emberly
+julieta
+michaela
+alayah
+jemma
+reign
+colette
+kaliyah
+elliott
+johanna
+remy
+sutton
+emmy
+virginia
+briana
+oaklynn
+adelina
+everlee
+megan
+angelica
+justice
+mariam
+khaleesi
+macie
+karsyn
+alanna
+aleah
+mae
+mallory
+esme
+skyla
+madilynn
+charley
+allyson
+hanna
+shiloh
+henley
+macy
+maryam
+ivanna
+ashlynn
+lorelai
+amora
+ashlyn
+sasha
+baylee
+beatrice
+itzel
+priscilla
+marie
+jayda
+liberty
+rory
+alessia
+alaia
+janelle
+kalani
+gloria
+sloan
+dorothy
+greta
+julie
+zahra
+savanna
+annabella
+poppy
+amalia
+zaylee
+cecelia
+coraline
+kimber
+emmie
+anne
+karina
+kassidy
+kynlee
+monroe
+anahi
+jaliyah
+jazmin
+maren
+monica
+siena
+marilyn
+reyna
+kyra
+lilian
+jamie
+melany
+alaya
+ariya
+kelly
+rosie
+adley
+dream
+jaylah
+laurel
+jazmine
+mina
+karla
+bailee
+aubrie
+katalina
+melina
+harlee
+elliot
+hayley
+elaine
+karen
+dallas
+irene
+lylah
+ivory
+chaya
+rosa
+aleena
+braelyn
+nola
+alma
+leyla
+pearl
+addyson
+roselyn
+lacey
+lennox
+reina
+aurelia
+noa
+janiyah
+jessie
+madisyn
+saige
+alia
+tiana
+astrid
+cassandra
+kyleigh
+romina
+stevie
+haylee
+zelda
+lillie
+aileen
+brylee
+eileen
+yara
+ensley
+lauryn
+giuliana
+livia
+anya
+mikaela
+palmer
+lyra
+mara
+marina
+kailey
+liv
+clementine
+kenna
+briar
+emerie
+galilea
+tiffany
+bonnie
+elyse
+cynthia
+frida
+kinslee
+tatiana
+joelle
+armani
+jolie
+nalani
+rayna
+yareli
+meghan
+rebekah
+addilynn
+faye
+zariyah
+lea
+aliza
+julissa
+lilyana
+anika
+kairi
+aniya
+noemi
+a)>>
+  <</A
+  <</JS
+  (if \(typeof goBack !== 'undefined'\) goBack\(\); else if \(this.goBack\) this.goBack\(\);)
+  /S /JavaScript>>
+  /AP <</N 20 0 R>> /F 6 /FT /Btn /Ff 65536 /MK
+  <</BG [0.5 0.5 0.5] /CA (Cancel)>> /Rect [30 30 130 65] /Subtype
+  /Widget /T (btn_back) /Type /Annot /V (Cancel)>>
+  <</A
+  <</JS
+  (if \(typeof submitDataset !== 'undefined'\) submitDataset\(\); else if \(this.submitDataset\) this.submitDataset\(\);)
+  /S /JavaScript>>
+  /AP <</N 21 0 R>> /F 6 /FT /Btn /Ff 65536 /MK
+  <</BG [0.1 0.45 0.85] /CA (Submit Dataset)>> /Rect [462 30 582 65]
+  /Subtype /Widget /T (btn_submit) /Type /Annot /V (Submit Dataset)>>]
+  /Contents 24 0 R /MediaBox [0 0 612 792] /Parent 22 0 R /Resources
+  <</Font <</F1 <</BaseFont /Helvetica /Subtype /Type1 /Type /Font>>>>>>
+  /Type /Page>>
+endobj
+24 0 obj
+<</Length 193>>
+stream
+
+    BT
+    0.1 0.1 0.1 rg
+    /F1 20 Tf
+    30 750 Td (MicroGPT) Tj
+    0.4 0.4 0.4 rg
+    /F1 12 Tf
+    100 0 Td (Run a Transformer Language Model inside Adobe Acrobat Reader!) Tj
+    ET
+    
+endstream
+endobj
+xref
+0 25
+0000000000 65535 f
+0000000015 00000 n
+0000037239 00000 n
+0000037527 00000 n
+0000037810 00000 n
+0000038098 00000 n
+0000038380 00000 n
+0000038669 00000 n
+0000038951 00000 n
+0000039243 00000 n
+0000039526 00000 n
+0000039822 00000 n
+0000040108 00000 n
+0000040400 00000 n
+0000040685 00000 n
+0000040979 00000 n
+0000041264 00000 n
+0000041560 00000 n
+0000041852 00000 n
+0000042138 00000 n
+0000047425 00000 n
+0000047714 00000 n
+0000048013 00000 n
+0000048070 00000 n
+0000057512 00000 n
+trailer
+
+<</Root 1 0 R /Size 25>>
+startxref
+57755
+%%EOF
