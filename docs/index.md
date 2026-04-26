@@ -14,7 +14,7 @@ Inspired by [doompdf](https://github.com/ading2210/doompdf) (which runs DOOM ins
 
 You can view the code and generate your own on [GitHub](https://github.com/).
 
-> **<a href="https://rahulkumar010.github.io/microgpt.pdf/microgpt.pdf" target="_blank">try microgpt.pdf</a>**  
+> **<a href="microgpt.pdf" target="_blank">try microgpt.pdf</a>**  
 > *(Note: You must open this via GitHub Pages. GitHub's standard file viewer blocks the Javascript.)*
 
 ## The Acrobat JS Sandbox
